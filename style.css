@@ -3,6 +3,11 @@ body {
     height: 100vh;
     margin: 0;
 }
+@media screen and (max-width:480px) {
+    .media-sp {
+        body-size: 100%;
+    }
+}
 div#wrapper {
     height: 100vh;
     width: 500px;
@@ -31,6 +36,7 @@ ul {
 }
 .bg-pink {
     background-color: pink;
+    margin-right: 20px;
 }
 li {
     margin-bottom: 5px;
@@ -40,18 +46,6 @@ p.a {
     padding: 5px;
     background-color: #f1f1f1;
 }
-mark1 {
-    background-color: pink;
-}
-mark2 {
-    background-color: yellow;
-}
-span1 {
-    color: red;
-}
-span2 {
-    color: yellow;
-}
 div#recommended_foods {
     height: 400px;
     background-color: white;
@@ -59,16 +53,19 @@ div#recommended_foods {
     padding: 20px;
     margin-top: 3pc;
 }
-h4 {
-    margin-left: -35px;
+dl {
+    margin-top: 5px;
+}
+dt {
     margin-bottom: 0;
     border-left: solid 9px blue;
     border-bottom: dashed 1px blue;
     margin-top: 10px;
+    padding-left: 5px;
+    font-weight: bold;
 }
-p2 {
-    margin-top: 0;
-    margin-left: -18px;
+dd {
+    margin-left: 20px;
 }
 #b {
     margin: 20px 15px;
